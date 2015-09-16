@@ -20,4 +20,34 @@ public class Multiplication implements BinaryOperation {
 		return 0;
 	}
 
+	@Override
+	public String getOperandName(String operandName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getResultName(String resultName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setOperands(double operandA, double operandB) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getOperandBName(String operandBName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDescription(String desctiption) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

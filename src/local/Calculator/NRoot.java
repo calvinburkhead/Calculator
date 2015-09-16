@@ -1,15 +1,9 @@
 package local.Calculator;
 
-public class Subtraction implements BinaryOperation {
-
-	@Override
-	public void setOperand(double operand) {
-		// TODO Auto-generated method stub
-
-	}
+public class NRoot implements BinaryOperation {
 	
 	@Override
-	public void setOperandB(double operandB) {
+	public void setOperand(double operand) {
 		// TODO Auto-generated method stub
 
 	}
@@ -18,6 +12,12 @@ public class Subtraction implements BinaryOperation {
 	public double getResult() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	@Override
+	public void setOperandB(double operandB) {
+		// TODO Auto-generated method stub
+
 	}
 
 	@Override

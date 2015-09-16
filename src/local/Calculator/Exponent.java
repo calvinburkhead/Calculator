@@ -1,23 +1,11 @@
 package local.Calculator;
 
-public class Subtraction implements BinaryOperation {
+public class Exponent implements BinaryOperation {
 
 	@Override
 	public void setOperand(double operand) {
 		// TODO Auto-generated method stub
 
-	}
-	
-	@Override
-	public void setOperandB(double operandB) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public double getResult() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	@Override
@@ -39,9 +27,21 @@ public class Subtraction implements BinaryOperation {
 	}
 
 	@Override
+	public double getResult() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setOperandB(double operandB) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
 	public void setOperands(double operandA, double operandB) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
