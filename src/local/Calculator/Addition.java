@@ -102,7 +102,7 @@ public class Addition implements BinaryOperation {
 	@Override
 	public String toString()
 	{
-		String stringValue = getAddendA() + " + " + getAddendB();
+		String stringValue = getAddendA() + " + " + (getAddendB() < 0 ? "(" + getAddendB() + ")" : getAddendB());
 		if (isResultValid())
 		{
 			stringValue += " = " + getSum();
